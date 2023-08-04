@@ -106,9 +106,6 @@ interface IPancakeRouter01 {
     function getAmountsOut(uint amountIn, address[] calldata path) external view returns (uint[] memory amounts);
     function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
 }
-interface IPancakeCallee {
-    function pancakeCall(address sender, uint amount0, uint amount1, bytes calldata data) external;
-}
 interface ISNKMinter {
     function bindParent(address parent) external;
     function stake(uint256 amount) external;
