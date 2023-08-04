@@ -1493,26 +1493,6 @@ https://twitter.com/BeosinAlert/status/1642372700726505473
 
 ---
 
-### 20230328 SafeMoon Hack
-
-### Lost: $8.9M
-
-Testing
-
-```
-forge test --contracts ./src/test/safeMoon_exp.sol -vvv
-```
-
-#### Contract
-
-[safeMoon_exp.sol](src/test/safeMoon_exp.sol)
-
-#### Link reference
-
-https://twitter.com/zokyo_io/status/1641014520041840640
-
----
-
 ### 20230328 - Thena - Yield Protocol Flaw
 
 ### Lost: $10k
