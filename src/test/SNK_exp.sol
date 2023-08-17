@@ -113,7 +113,6 @@ interface ISNKMinter {
     function exit() external;
 }
 
-
 contract SNKExp is Test, IPancakeCallee {
     IERC20 SNKToken = IERC20(0x05e2899179003d7c328de3C224e9dF2827406509);
     ISNKMinter minter = ISNKMinter(0xA3f5ea945c4970f48E322f1e70F4CC08e70039ee);

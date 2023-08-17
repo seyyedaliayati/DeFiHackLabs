@@ -1,3 +1,88 @@
+### 20230814 ZunamiProtocal - Price Manipulation
+
+### Lost: ~$2M
+
+Test
+
+```
+forge test --contracts ./src/test/Zunami_exp.sol --evm-version 'shanghai' -vvv
+```
+#### Contract
+
+[Zunami_exp.sol](src/test/Zunami_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/peckshield/status/1690877589005778945
+
+https://twitter.com/BlockSecTeam/status/1690931111776358400
+
+---
+
+### 20230809 EarningFram - Reentrancy
+
+### Lost: ~$286k
+
+Test
+
+```
+forge test --contracts ./src/test/EarningFram_exp.sol -vvv
+```
+
+#### Contract
+
+[EarningFram_exp.sol](src/test/EarningFram_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/Phalcon_xyz/status/1689182459269644288
+
+---
+
+### 20230802 Uwerx - Fault logic
+
+### Lost: ~$176ETH
+
+Test
+
+```
+forge test --contracts ./src/test/Uwerx_exp.sol -vvv
+```
+
+#### Contract
+
+[Uwerx_exp.sol](src/test/Uwerx_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/deeberiroz/status/1686683788795846657
+
+https://twitter.com/CertiKAlert/status/1686667720920625152
+
+https://etherscan.io/tx/0x3b19e152943f31fe0830b67315ddc89be9a066dc89174256e17bc8c2d35b5af8
+
+---
+
+### 20230801 NeutraFinance - Price Manipulation
+
+### Lost: ~$23ETH
+
+Test
+
+```
+forge test --contracts ./src/test/NeutraFinance_exp.sol -vvv
+```
+
+#### Contract
+
+[NeutraFinance_exp.sol](src/test/NeutraFinance_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/phalcon_xyz/status/1686654241111429120
+
+---
+
 ### 20230801 LeetSwap - Access Control
 
 ### Lost: ~$630K
@@ -17,6 +102,26 @@ forge test --contracts ./src/test/Leetswap_exp.sol -vvv
 https://twitter.com/BlockSecTeam/status/1686217464051539968
 
 https://twitter.com/peckshield/status/1686209024587710464
+
+---
+
+### 20230731 GYMNET - Insufficient validation
+
+### Lost: Unclear
+
+Test
+
+```
+forge test --contracts ./src/test/GYMNET_exp.sol -vvv
+```
+
+#### Contract
+
+[GYMNET_exp.sol](src/test/GYMNET_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/AnciliaInc/status/1686605510655811584
 
 ---
 
@@ -145,6 +250,26 @@ forge test --contracts ./src/test/Conic_exp.sol -vvv
 https://medium.com/@ConicFinance/post-mortem-eth-and-crvusd-omnipool-exploits-c9c7fa213a3d
 
 https://twitter.com/BlockSecTeam/status/1682356244299010049
+
+---
+
+### 20230721 SUT - Business Logic Flaw
+
+### Lost: ~$8k
+
+Testing
+
+```
+forge test --contracts ./src/test/SUT_exp.sol -vvv
+```
+
+#### Contract
+
+[SUT_exp.sol](src/test/SUT_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/bulu4477/status/1682983956080377857
 
 ---
 
