@@ -1,3 +1,183 @@
+### 20230906 Flood - Rebasing logic issue
+
+### Lost: ~$40ETH
+
+Test
+
+```
+forge test --contracts ./src/test/Flood_exp.sol -vvv
+```
+
+#### Contract
+
+[Flood_exp.sol](src/test/Flood_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/PeckShieldAlert/status/1698962105058361392
+
+https://explorer.phalcon.xyz/tx/eth/0x1274b32d4dfacd2703ad032e8bd669a83f012dde9d27ed92e4e7da0387adafe4?line=1408
+
+---
+
+### 20230905 HeavensGate - Rebasing logic issue
+
+### Lost: ~$6ETH
+
+Test
+
+```
+forge test --contracts ./src/test/HeavensGate_exp.sol -vvv
+```
+
+#### Contract
+
+[HeavensGate_exp.sol](src/test/HeavensGate_exp.sol)
+
+#### Link Reference
+
+https://explorer.phalcon.xyz/tx/eth/0xe28ca1f43036f4768776805fb50906f8172f75eba3bf1d9866bcd64361fda834
+
+---
+
+### 20230902 DAppSocial - Business Logic Flaw
+
+### Lost: ~$16K
+
+Test
+
+```
+forge test --contracts ./src/test/DAppSocial_exp.sol -vvv
+```
+
+#### Contract
+
+[DAppSocial_exp.sol](src/test/DAppSocial_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/DecurityHQ/status/1698064511230464310
+
+---
+
+### 20230829 EAC - Price Manipulation
+
+### Lost: ~$29BNB
+
+Test
+
+```
+forge test --contracts ./src/test/EAC_exp.sol -vvv
+```
+
+#### Contract
+
+[EAC_exp.sol](src/test/EAC_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/bbbb/status/1696520866564350157
+
+---
+
+### 20230826 SVT - flawed price calculation
+
+### Lost: ~$400K
+
+Test
+
+```
+forge test --contracts ./src/test/SVT_exp.sol -vvv
+```
+
+#### Contract
+
+[SVT_exp.sol](src/test/SVT_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/Phalcon_xyz/status/1695285435671392504?s=20
+
+---
+
+### 20230824 GSS - skim token balance
+
+### Lost: ~$25K
+
+Test
+
+```
+forge test --contracts ./src/test/GSS_exp.sol -vvv
+```
+
+#### Contract
+
+[GSS_exp.sol](src/test/GSS_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/bbbb/status/1694571228185723099
+
+---
+
+### 20230821 EHIVE - Business Logic Flaw
+
+### Lost: ~$15K
+
+Test
+
+```
+forge test --contracts ./src/test/EHIVE_exp.sol -vvv
+```
+
+#### Contract
+
+[EHIVE_exp.sol](src/test/EHIVE_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/bulu4477/status/1693636187485872583
+
+---
+
+### 20230819 BTC20 - Price Manipulation
+
+### Lost: ~$18ETH
+
+Test
+
+```
+forge test --contracts ./src/test/BTC20_exp.sol -vvv
+```
+
+#### Contract
+
+[BTC20_exp.sol](src/test/BTC20_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/DecurityHQ/status/1692924369662513472
+
+---
+
+### 20230818 ExactlyProtocol - insufficient validation
+
+### Lost: ~$7M
+
+Test
+
+```
+forge test --contracts ./src/test/Exactly_exp.sol -vvv
+```
+
+#### Contract
+
+[Exactly_exp.sol](src/test/Exactly_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/BlockSecTeam/status/1692533280971936059
+
 ### 20230814 ZunamiProtocal - Price Manipulation
 
 ### Lost: ~$2M
@@ -7,6 +187,7 @@ Test
 ```
 forge test --contracts ./src/test/Zunami_exp.sol --evm-version 'shanghai' -vvv
 ```
+
 #### Contract
 
 [Zunami_exp.sol](src/test/Zunami_exp.sol)
@@ -36,6 +217,26 @@ forge test --contracts ./src/test/EarningFram_exp.sol -vvv
 #### Link Reference
 
 https://twitter.com/Phalcon_xyz/status/1689182459269644288
+
+---
+
+### 20230802 CurveBurner - Lack Slippage Protection
+
+### Lost: ~$36K
+
+Test
+
+```
+forge test --contracts ./src/test/CurveBurner_exp.sol -vvv
+```
+
+#### Contract
+
+[CurveBurner_exp.sol](src/test/CurveBurner_exp.sol)
+
+#### Link Reference
+
+https://medium.com/@Hypernative/exotic-culinary-hypernative-systems-caught-a-unique-sandwich-attack-against-curve-finance-6d58c32e436b
 
 ---
 
@@ -397,6 +598,28 @@ https://twitter.com/peckshield/status/1678800450303164431
 
 ---
 
+### 20230712 WGPT - Business Logic Flaw
+
+### Lost: ~$80k
+
+Testing
+
+```
+forge test --contracts ./src/test/WGPT_exp.sol -vvv
+```
+
+#### Contract
+
+[WGPT_exp.sol](src/test/WGPT_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/Phalcon_xyz/status/1679042549946933248
+
+https://twitter.com/BeosinAlert/status/1679028240982368261
+
+---
+
 ### 20230711 RodeoFinance - TWAP Oracle Manipulation
 
 ### Lost: ~$888k
@@ -465,6 +688,30 @@ https://twitter.com/peckshield/status/1678265212770693121
 
 ---
 
+### 20230708 CIVNFT - Lack of access control
+
+### Lost: ~$180k
+
+Testing
+
+```
+forge test --contracts ./src/test/CIVNFT_exp.sol -vvv
+```
+
+#### Contract
+
+[CIVNFT_exp.sol](src/test/CIVNFT_exp.sol)
+
+#### Link Reference
+
+https://twitter.com/Phalcon_xyz/status/1677722208893022210
+
+https://news.civfund.org/civtrade-hack-analysis-9a2398a6bc2e
+
+https://blog.solidityscan.com/civnft-hack-analysis-4ee79b8c33d1
+
+---
+
 ### 20230708 Civfund - Lack of access control
 
 ### Lost: ~$165k
@@ -472,7 +719,7 @@ https://twitter.com/peckshield/status/1678265212770693121
 Testing
 
 ```
-forge test --contracts .src/test/Civfund_exp.sol -vvv
+forge test --contracts ./src/test/Civfund_exp.sol -vvv
 ```
 
 #### Contract
@@ -730,6 +977,26 @@ forge test --contracts ./src/test/ARA_exp.sol -vvv
 #### Link Reference
 
 https://twitter.com/BeosinAlert/status/1670638160550965248
+
+---
+
+### 20230617 Pawnfi - Business Logic Flaw
+
+### Lost: ~$820K
+
+Testing
+
+```
+forge test --contracts ./src/test/Pawnfi_exp.sol -vvv
+```
+
+#### Contract
+
+[Pawnfi_exp.sol](src/test/Pawnfi_exp.sol)
+
+#### Link Reference
+
+https://blog.solidityscan.com/pawnfi-hack-analysis-38ac9160cbb4
 
 ---
 
@@ -2656,19 +2923,19 @@ https://twitter.com/BlockSecTeam/status/1598262002010378241
 
 ---
 
-### 20221129 - MBC - Business Logic Flaw & Access Control
+### 20221129 - MBC & ZZSH - Business Logic Flaw & Access Control
 
-### Lost $5.6k
+### Lost $5.9k
 
 Testing
 
 ```sh
-forge test --contracts ./src/test/MBC_exp.sol -vvv
+forge test --contracts ./src/test/MBC_ZZSH_exp.sol -vvv
 ```
 
 #### Contract
 
-[MBC_exp.sol](src/test/MBC_exp.sol)
+[MBC_ZZSH_exp.sol](../../src/test/MBC_ZZSH_exp.sol)
 
 #### Link reference
 
@@ -3028,9 +3295,9 @@ https://twitter.com/AnciliaInc/status/1584955717877784576
 
 ---
 
-### 20221026 ULME - Access Control
+### 20221025 ULME - Access Control
 
-### Lost ~200k US$ which resulted in ~50k profit
+### Lost ~250k US$ which resulted in ~50k profit
 
 Testing
 
@@ -3040,12 +3307,15 @@ forge test --contracts ./src/test/ULME.sol -vvv
 
 #### Contract
 
-[ULME.sol](src/test/ULME.sol)
+[ULME.sol](src/test/ULME.sol) | [ULME_exp2.sol](src/test/ULME_exp2.sol)
 
 #### Link reference
 
 https://twitter.com/BlockSecTeam/status/1584839309781135361
+
 https://twitter.com/BeosinAlert/status/1584888021299916801
+
+https://medium.com/neptune-mutual/decoding-ulme-token-flash-loan-attack-56470d261787
 
 ---
 
