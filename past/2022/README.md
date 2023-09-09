@@ -2,6 +2,8 @@
 
 ## 2022 - List of Past DeFi Incidents
 
+119 incidents included.
+
 [20221230 DFS](#20221230---dfs---insufficient-validation--flashloan)
 
 [20221229 JAY](#20221229---jay---insufficient-validation--reentrancy)
@@ -34,7 +36,7 @@
 
 [20221201 APC](#20221201---apc---flashloan--price-manipulation)
 
-[20221129 MBC](#20221129---mbc---business-logic-flaw--access-control)
+[20221129 MBC & ZZSH](#20221129---mbc--zzsh---business-logic-flaw--access-control)
 
 [20221129 SEAMAN](#20221129---seaman---business-logic-flaw)
 
@@ -68,7 +70,7 @@
 
 [20221026 N00d Token](#20221026-n00d-token---reentrancy)
 
-[20221026 ULME](#20221026-ulme---access-control)
+[20221025 ULME](#20221025-ulme---access-control)
 
 [20221024 Market](#20221024-market---read-only-reentrancy)
 
@@ -567,19 +569,19 @@ https://twitter.com/BlockSecTeam/status/1598262002010378241
 
 ---
 
-### 20221129 - MBC - Business Logic Flaw & Access Control
+### 20221129 - MBC & ZZSH - Business Logic Flaw & Access Control
 
-### Lost $5.6k
+### Lost $5.9k
 
 Testing
 
 ```sh
-forge test --contracts ./src/test/MBC_exp.sol -vvv
+forge test --contracts ./src/test/MBC_ZZSH_exp.sol -vvv
 ```
 
 #### Contract
 
-[MBC_exp.sol](../../src/test/MBC_exp.sol)
+[MBC_ZZSH_exp.sol](../../src/test/MBC_ZZSH_exp.sol)
 
 #### Link reference
 
@@ -939,24 +941,27 @@ https://twitter.com/AnciliaInc/status/1584955717877784576
 
 ---
 
-### 20221026 ULME - Access Control
+### 20221025 ULME - Access Control
 
-### Lost ~200k US$ which resulted in ~50k profit
+### Lost ~250k US$ which resulted in ~50k profit
 
 Testing
 
 ```sh
-forge test --contracts ./src/test/ULME.sol -vvv
+forge test --contracts ./src/test/ULME_exp.sol -vvv
 ```
 
 #### Contract
 
-[ULME.sol](../../src/test/ULME.sol)
+[ULME_exp.sol](../../src/test/ULME_exp.sol) | [ULME_exp2.sol](../../src/test/ULME_exp2.sol)
 
 #### Link reference
 
 https://twitter.com/BlockSecTeam/status/1584839309781135361
+
 https://twitter.com/BeosinAlert/status/1584888021299916801
+
+https://medium.com/neptune-mutual/decoding-ulme-token-flash-loan-attack-56470d261787
 
 ---
 
