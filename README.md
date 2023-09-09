@@ -5910,6 +5910,7 @@ forge test --contracts src/test/Sushi-Badger_Digg.exp.sol -vvvv
 https://cmichel.io/replaying-ethereum-hacks-sushiswap-badger-dao-digg/
 
 ---
+
 ### 20201229 Cover Protocol
 
 Testing
@@ -5972,6 +5973,8 @@ forge test --contracts ./src/test/HarvestFinance_exp.sol -vv
 https://rekt.news/harvest-finance-rekt/
 
 https://etherscan.io/tx/0x35f8d2f572fceaac9288e5d462117850ef2694786992a8c3f6d02612277b0877
+
+---
 
 ### 20200804 Opyn Protocol - msgValue in loop
 
