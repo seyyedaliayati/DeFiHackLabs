@@ -1,83 +1,3 @@
-# DeFi Hacks Reproduce - Foundry
-
-## Before 2021 - List of Past DeFi Incidents
-
-37 incidents included.
-
-[20211221 Visor Finance](#20211221-visor-finance---reentrancy)
-
-[20211218 Grim Finance](#20211218-grim-finance---flashloan--reentrancy)
-
-[20211214 Nerve Bridge](#20211214-nerve-bridge---swap-metapool-attack)
-
-[20211130 MonoX Finance](#20211130-monox-finance---price-manipulation)
-
-[20211027 Cream Finance](#20211027-creamfinance---price-manipulation)
-
-[20211015 Indexed Finance](#20211015-indexed-finance---price-manipulation)
-
-[20210916 SushiSwap Miso](#20210916-sushiswap-miso)
-
-[20210915 Nimbus Platform](#20210915-nimbus-platform)
-
-[20210915 NowSwap Platform](#20210915-nowswap-platform)
-
-[20210912 ZABU Finance](#20210912-ZABU-Finance---Deflationary-token-uncompatible)
-
-[20210903 DAO Maker](#20210903-dao-maker---bad-access-controal)
-
-[20210830 Cream Finance](#20210830-cream-finance---flashloan-attack--reentrancy)
-
-[20210817 XSURGE](#20210817-xsurge---flashloan-attack--reentrancy)
-
-[20210811 Poly Network](#20210811-poly-network---bridge-getting-around-modifier-through-cross-chain-message)
-
-[20210804 WaultFinance](#20210804-waultfinace---flashloan-price-manipulation)
-
-[20210728 Levyathan Finance](#20210728-levyathan-finance---i-lost-keys-and-minting-ii-vulnerable-emergencywithdraw)
-
-[20210710 Chainswap](#20210710-chainswap---bridge-logic-flaw)
-
-[20210702 Chainswap](#20210702-chainswap---bridge-logic-flaw)
-
-[20210628 SafeDollar](#20210628-safedollar---deflationary-token-uncompatible)
-
-[20210622 Eleven Finance](#20210622-eleven-finance---doesnt-burn-shares)
-
-[20210607 88mph NFT](#20210607-88mph-nft---access-control)
-
-[20210603 PancakeHunny](#20210603-pancakehunny---incorrect-calculation)
-
-[20210527 BurgerSwap](#20210527-burgerswap---mathematical-flaw--reentrancy)
-
-[20210519 PancakeBunny](#20210519-pancakebunny---price-oracle-manipulation)
-
-[20210508 Rari Capital](#20210509-raricapital---cross-contract-reentrancy)
-
-[20210508 Value Defi](#20210508-value-defi---cross-contract-reentrancy)
-
-[20210428 Uranium](#20210428-uranium---miscalculation)
-
-[20210308 DODO](#20210308-dodo---flashloan-attack)
-
-[20210305 Paid Network](#20210305-paid-network---private-key-compromised)
-
-[20210125 Sushi Badger Digg](#20210125-sushi-badger-digg---sandwich-attack)
-
-[20201229 Cover Protocol](#20201229-cover-protocol)
-
-[20201121 Pickle Finance](#20201121-pickle-finance)
-
-[20201026 Harvest Finance](#20201026-harvest-finance---flashloan-attack)
-
-[20200804 Opyn Protocol](#20200804-opyn-protocol---msgValue-in-loop)
-
-[20200618 Bancor Protocol](#20200618-bancor-protocol---access-control)
-
-[20180422 Beauty Chain](#20180422-beauty-chain---integer-overflow)
-
-[20171106 Parity - 'Accidentally Killed It'](#20171106-parity---accidentally-killed-it)
-
 ### 20211221 Visor Finance - Reentrancy
 
 #### Lost: $8.2 million
@@ -787,6 +707,8 @@ forge test --contracts ./src/test/HarvestFinance_exp.sol -vv
 https://rekt.news/harvest-finance-rekt/
 
 https://etherscan.io/tx/0x35f8d2f572fceaac9288e5d462117850ef2694786992a8c3f6d02612277b0877
+
+---
 
 ### 20200804 Opyn Protocol - msgValue in loop
 
